@@ -1,3 +1,4 @@
+# issubset():-Returns whether another set contains this set or not.
 set1={11, 18, 2, 108}
 set2={11, 2}
 print(f"The first set is: {set1}")
