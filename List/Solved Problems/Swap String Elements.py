@@ -1,0 +1,7 @@
+string=input("Enter the string: ")
+char1=input("Enter the character that you want to replace: ")
+char2=input("Enter the character that will replace the existing the character: ")
+print("The string is: %s" %string)
+print("The character which is to be replaced: %s" %char1)
+print("The character will be replaced with: %s" %char2)
+print(f"The string after replacing: {string.replace(char1, char2)}.")
