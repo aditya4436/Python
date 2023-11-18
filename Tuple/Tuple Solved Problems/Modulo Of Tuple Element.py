@@ -1,0 +1,6 @@
+# Time Complexity:- O(n)
+# Space Complexity:- O(n)
+tup1=(2, 11, 20, 29)
+tup2=(2, 12, 21, 29)
+result=tuple(element1 % element2 for element1, element2 in zip(tup1, tup2))
+print(f"The modulo of {tup1} and {tup2} is: {result}.")
